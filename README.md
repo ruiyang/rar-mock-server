@@ -7,7 +7,7 @@ default port 9000
 npx --package github:ruiyang/rar-mock-server start
 ```
 
-to run in a different port 3000
+to run at a different port 3000
 ```shell
 PORT=3000 npx --package github:ruiyang/rar-mock-server start
 ```
@@ -19,7 +19,7 @@ shutdown the server gracefully
 curl --location --request GET 'localhost:9000/shutdown'
 ```
 
-any other requests will be sent back with response
+any other requests will be sent back with a response
 ```json
 {
     "method": "",
