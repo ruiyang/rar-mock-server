@@ -26,7 +26,7 @@ app.get('/shutdown', function (req, res) {
 
 app.route('/**')
   .all(function (req, res, next) {
-    res.send({method: req.method, headers: req.headers, body: req.body});
+    res.send({url: req.url, method: req.method, headers: req.headers, body: req.body});
   });
 
 // catch 404 and forward to error handler
