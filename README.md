@@ -4,12 +4,12 @@
 
 default port 9000
 ```shell
-npx --package github:ruiyang/rar-mock-server start
+npx --package rar-mock-server start
 ```
 
 to run at a different port 3000
 ```shell
-PORT=3000 npx --package github:ruiyang/rar-mock-server start
+PORT=3000 npx --package rar-mock-server start
 ```
 
 ### endpoints

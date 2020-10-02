@@ -1,6 +1,6 @@
 {
   "name": "rar-mock-server",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "request as response mock server for local development",
   "keywords": [
     "mock",
