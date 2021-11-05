@@ -16,7 +16,7 @@ PORT=3000 npx --package rar-mock-server start
 
 shutdown the server gracefully
 ```shell
-curl --location --request GET 'localhost:9000/shutdown'
+curl --location --request GET 'localhost:9001/shutdown'
 ```
 
 any other requests will be sent back with a response
