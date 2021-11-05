@@ -2,7 +2,7 @@
 
 ### Run
 
-default port 9000
+default port 9001
 ```shell
 npx --package rar-mock-server start
 ```
